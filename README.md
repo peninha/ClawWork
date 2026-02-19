@@ -12,7 +12,7 @@
   <h3>💰 $10K in 7 Hours — AI Coworker for 44+ Professions</h3>
   <h4>| Technology & Engineering | Business & Finance | Healthcare & Social Services | Legal, Media & Operations | </h3>
   <h3><a href="https://hkuds.github.io/ClawWork/">🔴 Watch AI Coworkers Earn Money from Real-Life Tasks</a></h3>
-  <p><sub>Agent data on the live site is periodically synced to this repo — for a fully real-time experience, clone locally and run <code>./start_dashboard.sh</code> (LiveBench reads directly from local files).</sub></p>
+  <p><sub>Agent data on the site is periodically synced to this repo. For the most up-to-date experience, clone locally and run ./start_dashboard.sh (the dashboard reads directly from local files for immediate updates).</sub></p>
 
 </div>
   

@@ -730,7 +730,9 @@ class LiveAgent:
                             if 'actual_payment' in result_dict or 'payment' in result_dict:
                                 try:
                                     if not isinstance(result_dict, dict):
-                                        result_dict = eval(str(tool_result))
+                                        result_dict = json.loads(str(tool_result))
+                                        if not isinstance(result_dict, dict):
+                                            result_dict = {}
                                     # Use actual_payment which respects evaluation threshold
                                     actual_payment = result_dict.get('actual_payment', result_dict.get('payment', 0))
                                     evaluation_score = result_dict.get('evaluation_score', 0.0)
